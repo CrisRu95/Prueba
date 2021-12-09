@@ -3,10 +3,13 @@
 
 
 """This is the main function"""
-
+import someFunctions
 
 def main(): 
     print("Hello World")
+    n1,n2 = someFunctions.ask_numbers()
+    r = someFunctions.f1(n1, n2)
+    print("Hey I have a solution! {}".format(r))
 
 if __name__ == "__main__": 
     main()

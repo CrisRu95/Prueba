@@ -6,7 +6,6 @@
 import someFunctions
 
 def main(): 
-    print("Hello World")
     print("Hola este es el mismo proyecto")
     n1 = int(input("Dame unnum: "))
     n2 = int(input("Dame otro num: "))

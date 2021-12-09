@@ -13,7 +13,7 @@ def f1(n1, n2):
 def ask_numbers(): 
     n1 = int(input("Give me a positive number (bigger than 0): "))
 
-    while n1 < 0: 
+    while n1 <= 0: 
         n1 = int(input("Give me a positive number (bigger than 0): "))
     
     n2 = int(input("Give me a number: "))
